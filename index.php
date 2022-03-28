@@ -8,6 +8,7 @@
 // Variabili
 $speech = "La cosa più bella di un computer portatile e che, per quanta roba tu ci possa mettere dentro,
            non diventa più grande o più pesante.";
+
 // Transform speech to lower case
 $lowerSpeech = strtolower($speech);
 
@@ -44,7 +45,7 @@ $lengthReplacedSpeech = strlen($replacedWord);
   </div>
   <div style="padding-top: 70px;">
     <form method="get">
-      <span>Digita una parola del testo da nascondere</span> <input type="text" name="censuredWord">
+      <input style="width: 300px" type="text" name="censuredWord" placeholder="Inserisci la parola da censurare">
       <input type="submit" value="invia">
     </form>
   </div>
