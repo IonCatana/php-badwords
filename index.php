@@ -24,6 +24,7 @@ $lengthSpeech = strlen($speech);
 <body>
   <div>
     <p> <?php echo $speech; ?> </p>
+    <span>La lunghezza del paragrafo é: <?php echo $lengthSpeech; ?></span>
   </div>
 </body>
 
